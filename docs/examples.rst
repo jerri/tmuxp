@@ -280,6 +280,23 @@ JSON
 .. literalinclude:: ../examples/window-index.json
     :language: json
 
+Shell per pane
+--------------
+
+Every pane can have its own shell or application started. This allows for usage of the ``remain-on-exit`` setting to be used properly, but also to have different shells on different panes.
+
+YAML
+~~~~
+
+.. literalinclude:: ../examples/pane-shell.yaml
+    :language: yaml
+
+JSON
+~~~~
+
+.. literalinclude:: ../examples/pane-shell.json
+    :language: json
+
 Set tmux options
 ----------------
 
